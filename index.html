@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore Unplugged Games and Unplugged Games 76 with this practical guide to offline activities, classic group games, creative challenges, and screen-free fun.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#102a43">
+  <title>Unplugged Games 76: Fun Offline Games & Activities</title>
+  <link rel="canonical" href="https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/">
+  <style>
+    :root {
+      --ink: #172b4d;
+      --muted: #52657a;
+      --brand: #146c94;
+      --brand-dark: #102a43;
+      --accent: #f4b942;
+      --surface: #ffffff;
+      --soft: #f2f7fb;
+      --border: #dce6ee;
+      --radius: 18px;
+      --shadow: 0 12px 32px rgba(16, 42, 67, .09);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--surface);
+      line-height: 1.7;
+    }
+    a { color: var(--brand); }
+    a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+    .skip-link {
+      position: absolute; left: -9999px; top: 0;
+      background: white; padding: .75rem 1rem; z-index: 10;
+    }
+    .skip-link:focus { left: 1rem; top: 1rem; }
+    .wrap { width: min(1120px, calc(100% - 2rem)); margin-inline: auto; }
+    header {
+      color: white;
+      background: linear-gradient(135deg, #102a43 0%, #146c94 100%);
+    }
+    .nav {
+      display: flex; justify-content: space-between; align-items: center;
+      gap: 1rem; padding: 1.15rem 0; flex-wrap: wrap;
+    }
+    .logo { color: white; font-size: 1.1rem; font-weight: 800; text-decoration: none; letter-spacing: .02em; }
+    nav { display: flex; flex-wrap: wrap; gap: .9rem; }
+    nav a { color: #eaf7ff; text-decoration: none; font-size: .95rem; }
+    nav a:hover { text-decoration: underline; }
+    .hero { padding: clamp(3.5rem, 8vw, 6.5rem) 0; }
+    .eyebrow {
+      display: inline-block; background: rgba(255,255,255,.13); color: #fff;
+      border: 1px solid rgba(255,255,255,.25); border-radius: 999px;
+      padding: .35rem .75rem; font-size: .85rem; font-weight: 700;
+    }
+    h1 { font-size: clamp(2.35rem, 6vw, 4.6rem); line-height: 1.08; max-width: 850px; margin: 1rem 0; letter-spacing: -.04em; }
+    .hero p { max-width: 720px; color: #e5f2fa; font-size: clamp(1.05rem, 2vw, 1.2rem); }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 1.5rem; }
+    .button {
+      display: inline-block; border-radius: 10px; padding: .8rem 1.1rem;
+      font-weight: 750; text-decoration: none; border: 2px solid transparent;
+    }
+    .button.primary { background: var(--accent); color: #1d2d3d; }
+    .button.secondary { border-color: rgba(255,255,255,.65); color: white; }
+    main { padding: 2.5rem 0 4rem; }
+    section { margin: 0 0 3.2rem; scroll-margin-top: 1rem; }
+    h2 { font-size: clamp(1.65rem, 3vw, 2.35rem); line-height: 1.2; margin: 0 0 1rem; letter-spacing: -.025em; }
+    h3 { line-height: 1.3; margin-top: 0; }
+    p { margin: .7rem 0 1rem; }
+    .intro { color: var(--muted); max-width: 800px; font-size: 1.08rem; }
+    .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.1rem; }
+    .card {
+      border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 1.3rem; background: white; box-shadow: var(--shadow);
+    }
+    .icon {
+      display: grid; place-items: center; width: 48px; height: 48px;
+      border-radius: 14px; background: #e8f5fb; font-size: 1.5rem; margin-bottom: .9rem;
+    }
+    .card p { color: var(--muted); margin-bottom: 0; }
+    .soft-panel { background: var(--soft); border: 1px solid var(--border); padding: clamp(1.2rem, 3vw, 2rem); border-radius: var(--radius); }
+    .steps { padding-left: 1.25rem; }
+    .steps li { padding-left: .3rem; margin: .65rem 0; }
+    .tip { border-left: 4px solid var(--accent); padding: .8rem 1rem; background: #fff8e8; border-radius: 0 10px 10px 0; }
+    details { border-bottom: 1px solid var(--border); padding: 1rem 0; }
+    summary { font-weight: 750; cursor: pointer; }
+    details p { color: var(--muted); margin-bottom: 0; }
+    .cta { text-align: center; background: var(--brand-dark); color: white; padding: 2rem; border-radius: var(--radius); }
+    .cta p { color: #e5f2fa; max-width: 700px; margin: .5rem auto 1.2rem; }
+    footer { background: #f2f7fb; border-top: 1px solid var(--border); padding: 1.5rem 0; color: var(--muted); font-size: .92rem; }
+    footer p { margin: .25rem 0; }
+    @media (max-width: 800px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 560px) {
+      .wrap { width: min(100% - 1.25rem, 1120px); }
+      .grid { grid-template-columns: 1fr; }
+      .nav { align-items: flex-start; }
+      nav { gap: .65rem; }
+      .hero { padding: 3.5rem 0; }
+      .card { box-shadow: none; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header>
+    <div class="wrap">
+      <div class="nav">
+        <a class="logo" href="#top" aria-label="Unplugged Games home">Unplugged Games</a>
+        <nav aria-label="Main navigation">
+          <a href="https://codesenter.com/about/">About</a>
+          <a href="https://codesenter.com/privacy-policy/">Privacy Policy</a>
+          <a href="https://codesenter.com/tv-youtube-com-start/">YouTube</a>
+        </nav>
+      </div>
+      <div class="hero" id="top">
+        <span class="eyebrow">Screen-free fun • Anytime, anywhere</span>
+        <h1>Unplugged Games 76: Simple Ideas for Offline Fun</h1>
+        <p>Discover easy unplugged games for friends, families, classrooms, and quiet breaks. From word challenges to team activities, these screen-free ideas make it simple to connect, think creatively, and have fun without needing a device.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="https://codesenter.com/">Explore game ideas</a>
+          <a class="button secondary" href="https://codesenter.com/">Plan a game session</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap" id="main">
+    <section id="about">
+      <h2>What Are Unplugged Games?</h2>
+      <p class="intro">Unplugged games are activities you can play without a computer, console, or internet connection. They may use conversation, paper, pencils, everyday objects, movement, or imagination. The goal is straightforward: enjoy a shared activity while taking a break from screens.</p>
+      <p>The phrase <strong>Unplugged Games 76</strong> may be used as a search term for offline game ideas. This page is an independent guide, not an official game platform, and it does not host or link to a verified catalogue associated with the number 76. The ideas below can be adapted for different ages, group sizes, and settings.</p>
+    </section>
+
+    <section id="ideas">
+      <h2>Popular Unplugged Games to Try</h2>
+      <p class="intro">Choose a game based on the time available, the number of players, and whether your group wants something calm, creative, or active.</p>
+      <div class="grid">
+        <article class="card">
+          <div class="icon" aria-hidden="true">🧠</div>
+          <h3>1. Twenty Questions</h3>
+          <p>One person thinks of an object, place, or animal. Others ask up to 20 yes-or-no questions to guess it. This is an easy choice for travel, family time, or classroom warm-ups.</p>
+        </article>
+        <article class="card">
+          <div class="icon" aria-hidden="true">✏️</div>
+          <h3>2. Paper-and-Pencil Challenges</h3>
+          <p>Play tic-tac-toe, dots and boxes, word ladders, or a drawing challenge. All you need is paper, pencils, and a few minutes.</p>
+        </article>
+        <article class="card">
+          <div class="icon" aria-hidden="true">🗣️</div>
+          <h3>3. Word Association</h3>
+          <p>Say a word and ask the next player to respond with a related word. Keep the chain moving, or add a theme such as food, nature, or travel.</p>
+        </article>
+        <article class="card">
+          <div class="icon" aria-hidden="true">🎭</div>
+          <h3>4. Charades</h3>
+          <p>Act out a movie, animal, job, or everyday activity without speaking. Teammates try to guess the answer before the timer ends.</p>
+        </article>
+        <article class="card">
+          <div class="icon" aria-hidden="true">🏗️</div>
+          <h3>5. Build-It Challenge</h3>
+          <p>Use safe household materials such as paper, cards, or blocks to build the tallest freestanding tower. Set a time limit and compare creative designs.</p>
+        </article>
+        <article class="card">
+          <div class="icon" aria-hidden="true">🔎</div>
+          <h3>6. Indoor Scavenger Hunt</h3>
+          <p>Make a list of items by colour, shape, or purpose. Players search the room and return with the items or point them out without disturbing others.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="benefits">
+      <h2>Why Choose Screen-Free Games?</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Stronger connections</h3>
+          <p>Taking turns, talking, and working together can help people spend more intentional time with one another.</p>
+        </article>
+        <article class="card">
+          <h3>Creative thinking</h3>
+          <p>Riddles, storytelling, and building tasks invite players to test ideas and solve small problems.</p>
+        </article>
+        <article class="card">
+          <h3>Easy to organise</h3>
+          <p>Many unplugged activities use little or no equipment, so they work at home, during breaks, or on trips.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="how-to-start" class="soft-panel">
+      <h2>How to Start an Unplugged Game Session</h2>
+      <ol class="steps">
+        <li><strong>Choose a setting.</strong> Decide whether the activity is for a family evening, classroom, party, or short break.</li>
+        <li><strong>Pick a suitable game.</strong> Match the rules to players' ages, abilities, interests, and group size.</li>
+        <li><strong>Gather simple supplies.</strong> Prepare paper, pencils, cards, or other safe everyday objects if needed.</li>
+        <li><strong>Explain the rules clearly.</strong> Demonstrate one round and agree on turns, time limits, and any scoring.</li>
+        <li><strong>Keep it welcoming.</strong> Let people pass, adjust the difficulty, and focus on participation rather than winning.</li>
+      </ol>
+      <p class="tip"><strong>Quick tip:</strong> Start with a 10-minute activity. If everyone is enjoying it, play another round or let the group invent a new rule.</p>
+    </section>
+
+    <section id="choosing">
+      <h2>Choosing the Right Game for Your Group</h2>
+      <p>For two players, try Twenty Questions or paper-and-pencil games. For larger groups, charades and team scavenger hunts can keep everyone involved. If you want a quieter activity, choose word association or collaborative storytelling. For active games, make sure there is enough space and remove objects that could cause trips or falls.</p>
+      <p>Adults can make games more challenging by adding categories, limited turns, or creative restrictions. For younger children, keep instructions short, use safe materials, and adapt the rules to their needs. There is no single best unplugged game—the best option is one your group wants to play.</p>
+    </section>
+
+    <section id="faq">
+      <h2>Frequently Asked Questions</h2>
+      <details>
+        <summary>What does “Unplugged Games” mean?</summary>
+        <p>It usually refers to games and activities that do not require an electronic device or internet connection. Examples include charades, riddles, board games, drawing games, and outdoor challenges.</p>
+      </details>
+      <details>
+        <summary>What is Unplugged Games 76?</summary>
+        <p>It is a phrase some people may search for when looking for unplugged game content. This page does not verify it as an official platform or a specific catalogue; use trusted sources when looking for a particular service.</p>
+      </details>
+      <details>
+        <summary>Can unplugged games be played indoors?</summary>
+        <p>Yes. Word games, drawing challenges, charades, puzzles, and scavenger hunts can be adapted for indoor spaces. Choose activities that suit the room and keep walkways clear.</p>
+      </details>
+      <details>
+        <summary>Do unplugged games need special equipment?</summary>
+        <p>No. Many use only conversation or imagination. Other games may need paper, pencils, cards, or safe household items.</p>
+      </details>
+      <details>
+        <summary>Are unplugged games suitable for classrooms?</summary>
+        <p>Many are useful as short warm-ups or group activities. Teachers should select age-appropriate rules and make sure each student has a comfortable way to participate.</p>
+      </details>
+    </section>
+
+    <section class="cta">
+      <h2>Make Room for Offline Fun</h2>
+      <p>Pick one activity, invite a friend or family member, and give yourselves a short break from screens. A simple game can turn an ordinary moment into shared fun.</p>
+      <a class="button primary" href="https://codesenter.com/">Choose your first game</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p><strong>Unplugged Games Guide</strong> — an independent informational resource.</p>
+      <p>Content is provided for general information. Game names and activities are illustrative; adapt them to your setting and follow appropriate safety guidance.</p>
+    </div>
+  </footer>
+</body>
+</html>
